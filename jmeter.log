@@ -1,27 +1,84 @@
-2024-03-13 12:15:42,574 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2024-03-13 12:15:42,589 INFO o.a.j.JMeter: Loading user properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/user.properties
-2024-03-13 12:15:42,589 INFO o.a.j.JMeter: Loading system properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/system.properties
-2024-03-13 12:15:42,592 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
-2024-03-13 12:15:42,592 INFO o.a.j.JMeter: Version 5.6.3
-2024-03-13 12:15:42,592 INFO o.a.j.JMeter: java.version=21.0.2
-2024-03-13 12:15:42,592 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
-2024-03-13 12:15:42,592 INFO o.a.j.JMeter: os.name=Mac OS X
-2024-03-13 12:15:42,592 INFO o.a.j.JMeter: os.arch=aarch64
-2024-03-13 12:15:42,592 INFO o.a.j.JMeter: os.version=13.4
-2024-03-13 12:15:42,592 INFO o.a.j.JMeter: file.encoding=UTF-8
-2024-03-13 12:15:42,592 INFO o.a.j.JMeter: java.awt.headless=null
-2024-03-13 12:15:42,592 INFO o.a.j.JMeter: Max memory     =1073741824
-2024-03-13 12:15:42,593 INFO o.a.j.JMeter: Available Processors =8
-2024-03-13 12:15:42,599 INFO o.a.j.JMeter: Default Locale=English (EN)
-2024-03-13 12:15:42,599 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2024-03-13 12:15:42,599 INFO o.a.j.JMeter: JMeterHome=/opt/homebrew/Cellar/jmeter/5.6.3/libexec
-2024-03-13 12:15:42,599 INFO o.a.j.JMeter: user.dir  =/Users/febrian/Library/CloudStorage/OneDrive-UNIVERSITASINDONESIA/kuliah/4_Prolan/Modules/Module_5/exercise-profiling
-2024-03-13 12:15:42,599 INFO o.a.j.JMeter: PWD       =/Users/febrian/Library/CloudStorage/OneDrive-UNIVERSITASINDONESIA/kuliah/4_Prolan/Modules/Module_5/exercise-profiling
-2024-03-13 12:15:42,600 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: Macbook-3.local FullName: localhost
-2024-03-13 12:15:42,607 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
-2024-03-13 12:15:43,144 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
-2024-03-13 12:15:46,674 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2024-03-13 12:15:46,795 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2024-03-13 12:15:46,887 INFO o.j.r.JARSourceHTTP: Found cached repo
-2024-03-13 12:15:46,995 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=1.9, jmeter-core=5.6.3, jmeter-ftp=5.6.3, jmeter-http=5.6.3, jmeter-jdbc=5.6.3, jmeter-jms=5.6.3, jmeter-junit=5.6.3, jmeter-java=5.6.3, jmeter-ldap=5.6.3, jmeter-mail=5.6.3, jmeter-mongodb=5.6.3, jmeter-native=5.6.3, jmeter-tcp=5.6.3, jmeter-components=5.6.3]
-2024-03-13 12:15:46,996 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-plugins-manager]
+2024-03-13 15:25:31,201 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2024-03-13 15:25:31,214 INFO o.a.j.JMeter: Loading user properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/user.properties
+2024-03-13 15:25:31,215 INFO o.a.j.JMeter: Loading system properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/system.properties
+2024-03-13 15:25:31,218 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2024-03-13 15:25:31,218 INFO o.a.j.JMeter: Version 5.6.3
+2024-03-13 15:25:31,218 INFO o.a.j.JMeter: java.version=21.0.2
+2024-03-13 15:25:31,218 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2024-03-13 15:25:31,218 INFO o.a.j.JMeter: os.name=Mac OS X
+2024-03-13 15:25:31,218 INFO o.a.j.JMeter: os.arch=aarch64
+2024-03-13 15:25:31,218 INFO o.a.j.JMeter: os.version=13.4
+2024-03-13 15:25:31,218 INFO o.a.j.JMeter: file.encoding=UTF-8
+2024-03-13 15:25:31,218 INFO o.a.j.JMeter: java.awt.headless=true
+2024-03-13 15:25:31,218 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-03-13 15:25:31,218 INFO o.a.j.JMeter: Available Processors =8
+2024-03-13 15:25:31,223 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-03-13 15:25:31,223 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2024-03-13 15:25:31,223 INFO o.a.j.JMeter: JMeterHome=/opt/homebrew/Cellar/jmeter/5.6.3/libexec
+2024-03-13 15:25:31,223 INFO o.a.j.JMeter: user.dir  =/Users/febrian/Library/CloudStorage/OneDrive-UNIVERSITASINDONESIA/kuliah/4_Prolan/Modules/Module_5/exercise-profiling
+2024-03-13 15:25:31,223 INFO o.a.j.JMeter: PWD       =/Users/febrian/Library/CloudStorage/OneDrive-UNIVERSITASINDONESIA/kuliah/4_Prolan/Modules/Module_5/exercise-profiling
+2024-03-13 15:25:31,224 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: Macbook-3.local FullName: localhost
+2024-03-13 15:25:31,234 INFO o.a.j.s.FileServer: Default base='/Users/febrian/Library/CloudStorage/OneDrive-UNIVERSITASINDONESIA/kuliah/4_Prolan/Modules/Module_5/exercise-profiling'
+2024-03-13 15:25:31,234 INFO o.a.j.s.FileServer: Set new base='/Users/febrian/Library/CloudStorage/OneDrive-UNIVERSITASINDONESIA/kuliah/4_Prolan/Modules/Module_5/exercise-profiling'
+2024-03-13 15:25:31,335 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-03-13 15:25:31,362 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-03-13 15:25:31,364 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-03-13 15:25:31,366 INFO o.a.j.s.SaveService: Loading file: test_plan_1.jmx
+2024-03-13 15:25:31,407 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-13 15:25:31,407 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-13 15:25:31,407 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-13 15:25:31,407 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-13 15:25:31,408 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-03-13 15:25:31,408 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-03-13 15:25:31,423 INFO o.a.j.JMeter: Creating summariser <summary>
+2024-03-13 15:25:31,430 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-03-13 15:25:31,430 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-03-13 15:25:31,431 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-03-13 15:25:31,433 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2024-03-13 15:25:31,433 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2024-03-13 15:25:31,465 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-03-13 15:25:31,516 INFO o.a.j.JMeter: Running test (1710318331516)
+2024-03-13 15:25:31,527 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 1
+2024-03-13 15:25:31,527 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group 1.
+2024-03-13 15:25:31,527 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-03-13 15:25:31,527 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2024-03-13 15:25:31,531 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1 1-1
+2024-03-13 15:25:31,531 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-03-13 15:25:31,532 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-03-13 15:25:31,540 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Macbook-3.local
+2024-03-13 15:25:31,543 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2024-03-13 15:25:31,543 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-03-13 15:25:31,543 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2024-03-13 15:25:31,544 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-03-13 15:25:31,544 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-03-13 15:25:31,633 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1 1-2
+2024-03-13 15:25:31,733 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1 1-3
+2024-03-13 15:25:31,829 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1 1-4
+2024-03-13 15:25:31,928 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1 1-5
+2024-03-13 15:25:32,032 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1 1-6
+2024-03-13 15:25:32,128 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1 1-7
+2024-03-13 15:25:32,232 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1 1-8
+2024-03-13 15:25:32,329 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1 1-9
+2024-03-13 15:25:32,433 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1 1-10
+2024-03-13 15:28:42,569 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1 1-1
+2024-03-13 15:28:42,569 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1 1-1
+2024-03-13 15:28:43,248 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1 1-6
+2024-03-13 15:28:43,248 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1 1-6
+2024-03-13 15:28:43,917 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1 1-8
+2024-03-13 15:28:43,917 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1 1-8
+2024-03-13 15:28:44,165 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1 1-5
+2024-03-13 15:28:44,165 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1 1-5
+2024-03-13 15:28:44,334 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1 1-2
+2024-03-13 15:28:44,334 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1 1-2
+2024-03-13 15:28:44,440 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1 1-10
+2024-03-13 15:28:44,440 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1 1-10
+2024-03-13 15:28:44,491 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1 1-3
+2024-03-13 15:28:44,491 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1 1-3
+2024-03-13 15:28:44,567 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1 1-7
+2024-03-13 15:28:44,567 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1 1-7
+2024-03-13 15:28:44,577 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1 1-4
+2024-03-13 15:28:44,577 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1 1-4
+2024-03-13 15:28:44,747 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1 1-9
+2024-03-13 15:28:44,747 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1 1-9
+2024-03-13 15:28:44,747 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-03-13 15:28:44,749 INFO o.a.j.r.Summariser: summary =     10 in 00:03:13 =    0.1/s Avg: 192122 Min: 190986 Max: 192762 Err:     0 (0.00%)
